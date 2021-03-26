@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: northwind_erp
+    description: Base de dados Northwind ERP
+    tables:
+      - name: base_prod_orders
+        description: Table Products do ERP
+      - name: base_prod_products
+        description: Table Products do ERP
+      - name: base_prod_shippers
+        description: Table Shippers do ERP
+      - name: base_prod_employees
+        description: Table Employees do ERP
+      - name: base_prod_customers
+        description: Table Customers do ERP
+      - name: base_prod_suppliers
+        description: Table Suppliers do ERP
+      - name: base_prod_categories
+        description: Table Categories do ERP

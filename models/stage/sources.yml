@@ -5,7 +5,9 @@ sources:
     description: Base de dados Northwind ERP
     tables:
       - name: base_prod_orders
-        description: Table Products do ERP
+        description: Table order do ERP
+      - name: base_prod_order_details
+        description: Table Order Details do ERP
       - name: base_prod_products
         description: Table Products do ERP
       - name: base_prod_shippers

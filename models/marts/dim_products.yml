@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: dim_products
+    columns:
+      - name: sk_product 
+        description: key for model 
+        test:
+          - unique
+          - not_null

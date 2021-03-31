@@ -1,15 +1,22 @@
-Welcome to your new dbt project!
+# Projeto de estudo DBT
+
+## Case - Criar um DW (BigQuery) com os Dados do Northwind de um banco relacional (POSTGRES)
+
+- 1 - Etapa de Ingestão de dados usei o Stitch para efetuar a gestão dos dados no BigQuery
+- 2 - Modelagem (dimensional) de dados usando o DBT
+    - Area de Stage
+    - Area de Mart
+    - Testes
+        - Teste de Schema: model/mart/dim_products.yml
+        - Teste de Dados:  tests/test_dim_products.sql
 
 ### Using the starter project
-
 Try running the following commands:
-- dbt run
+- dbt deps
 - dbt test
-
+- dbt run
 
 ### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](http://slack.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+- Google BigQuery
+- DBT Core
+- DBT Utils

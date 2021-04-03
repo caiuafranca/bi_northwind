@@ -9,7 +9,7 @@
     - Testes
         - Teste de Schema: model/mart/dim_products.yml
         - Teste de Dados:  tests/test_dim_products.sql
-
+- 3 - Modelagem preditiva usando BigQuery ML para prever vendas futuras
 ### Using the starter project
 Try running the following commands:
 - dbt deps
@@ -20,3 +20,4 @@ Try running the following commands:
 - Google BigQuery
 - DBT Core
 - DBT Utils
+- DBT dbt_ML (plugin para modelagem preditiva)

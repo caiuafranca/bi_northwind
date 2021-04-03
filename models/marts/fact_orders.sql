@@ -5,6 +5,7 @@ model as (
         , sk_customers
         , sk_shippers
         , sk_products
+        , sk_employees 
         , sk_calendar       
         , sum(freight) as  freight           
         , sum(discount) as discount
@@ -14,6 +15,7 @@ model as (
     group by 
         order_id
         , sk_customers
+        , sk_employees 
         , sk_shippers
         , sk_products
         , sk_calendar  

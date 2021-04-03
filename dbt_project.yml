@@ -38,3 +38,5 @@ models:
             materialized: view
         stage:
             materialized: view
+        predict:
+            materialized: view

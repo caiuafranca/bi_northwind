@@ -1,4 +1,3 @@
-
 with 
     suppliers as (
         select            	                 
